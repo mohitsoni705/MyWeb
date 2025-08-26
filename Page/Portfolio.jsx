@@ -92,7 +92,7 @@ export default function Portfolio() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-              Portfolio
+              Mohit Soni
             </div>
             
             {/* Desktop Menu */}
@@ -147,7 +147,7 @@ export default function Portfolio() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 mb-4 md:mb-0">
-              © 2025 John Doe. All rights reserved.
+              © 2025 Mohit Soni. All rights reserved.
             </p>
             <div className="flex space-x-4">
               <a 
