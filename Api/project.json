@@ -1,0 +1,26 @@
+[
+    {
+      "title": "E-state Platform",
+      "description": "A full-stack e-state solution with React frontend and Node.js backend.",
+      "tech": ["React", "Tailwind CSS"],
+      "image": "./img/estate.png",
+      "live": "https://estatemohit.netlify.app/",
+      "github": "https://github.com/mohitsoni705/Estate-Website"
+    },
+    {
+      "title": "AI Produtivity App",
+      "description": "A collaborative task management application with real-time updates using React and Firebase.",
+      "tech": ["React", "Firebase", "Tailwind CSS"],
+      "image": "./img/growX.png",
+      "live": "https://aiproductivity.netlify.app/ ",
+      "github": "https://github.com/mohitsoni705/AI-Productivity-App"
+    },
+    {
+      "title": "World Atlas",
+      "description": "A responsive country dashboard with search, filter, and detailed country views using REST Countries API.",
+      "tech": ["React", "Tailwind CSS"],
+      "image":"./img/worldatlas.png",
+      "live": "https://countrymohit.netlify.app/",
+      "github": "https://github.com/mohitsoni705/CountryData"
+    }
+  ]
