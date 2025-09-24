@@ -4,6 +4,10 @@ import Home from '../src/Components/Home';
 import About from '../src/Components/About';
 import Projects from '../src/Components/Projects';
 import Contact from '../src/Components/Contact';
+<<<<<<< HEAD
+=======
+import project from "../Api/project.json";
+>>>>>>> b4a7897 (updated links)
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
@@ -151,28 +155,50 @@ export default function Portfolio() {
             </p>
             <div className="flex space-x-4">
               <a 
+<<<<<<< HEAD
                 href="#" 
+=======
+                href="https://github.com/mohitsoni705" 
+>>>>>>> b4a7897 (updated links)
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Github className="w-5 h-5" />
+<<<<<<< HEAD
               </a>
               <a 
                 href="#" 
+=======
+                <p>Github</p>
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/mohit--soni" 
+>>>>>>> b4a7897 (updated links)
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
+<<<<<<< HEAD
               </a>
               <a 
                 href="#" 
+=======
+                <p>LinkedIn</p>
+              </a>
+              <a 
+                href="mailto:mohitsoni3820@gmail.com"
+>>>>>>> b4a7897 (updated links)
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Mail className="w-5 h-5" />
+<<<<<<< HEAD
+=======
+                <p>Email</p>
+>>>>>>> b4a7897 (updated links)
               </a>
             </div>
           </div>
