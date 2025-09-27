@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, MailCheck } from 'lucide-react'
 import React from 'react'
+import Resume from './Resume'
 
 const About = ({ setIsHovering , skills }) => {
   return (
@@ -63,6 +64,7 @@ const About = ({ setIsHovering , skills }) => {
               ))}
             </div>
           </div>
+         <div><Resume/></div>
         </div>
       </section>
     </div>

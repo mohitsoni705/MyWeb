@@ -1,12 +1,14 @@
 import { ExternalLinkIcon, Github } from 'lucide-react'
 import React from 'react'
 import projects from '../../Api/project.json'
+import Resume from './Resume'
 
 const Projects = ({setIsHovering}) => {
   return (
     <div>
       <section id="projects" className="py-20 relative">
         <div className="container mx-auto px-6">
+         
           <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-16">
             Featured Projects
           </h2>
