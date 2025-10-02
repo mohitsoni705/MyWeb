@@ -41,7 +41,7 @@ const About = ({ setIsHovering , skills }) => {
                   onMouseLeave={() => setIsHovering(false)}
                   className="p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-colors border border-gray-700"
                 >
-                  <MailCheck className="w-6 h-6 text-white" />
+ <MailCheck className="w-6 h-6 text-white" />
                 </a>
               </div>
             </div>
@@ -64,7 +64,7 @@ const About = ({ setIsHovering , skills }) => {
               ))}
             </div>
           </div>
-         <div><Resume/></div>
+         <div className='flex bg-red'><Resume/></div>
         </div>
       </section>
     </div>
