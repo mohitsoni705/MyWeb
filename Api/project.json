@@ -22,5 +22,13 @@
       "image":"./img/worldatlas.png",
       "live": "https://countrymohit.netlify.app/",
       "github": "https://github.com/mohitsoni705/CountryData"
+    },
+    {
+      "title": "Brainly",
+      "description": "A responsive country dashboard with search, filter, and detailed country views using REST Countries API.",
+      "tech": ["React", "Mongo DB" ,"Node.js", "Express.js"],
+      "image":"./img/brainly.png",
+      "live": "https://brainly-blond.vercel.app",
+      "github": "https://github.com/mohitsoni705/Project-Second-Brain-"
     }
   ]
