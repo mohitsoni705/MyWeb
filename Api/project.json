@@ -25,7 +25,7 @@
     },
     {
       "title": "Brainly",
-      "description": "A responsive country dashboard with search, filter, and detailed country views using REST Countries API.",
+      "description": "A responsive Second Brain with features to store your favourite youtube video and x tweets.",
       "tech": ["React", "Mongo DB" ,"Node.js", "Express.js"],
       "image":"./img/brainly.png",
       "live": "https://brainly-blond.vercel.app",
