@@ -30,5 +30,13 @@
       "image":"./img/brainly.png",
       "live": "https://brainly-blond.vercel.app",
       "github": "https://github.com/mohitsoni705/Project-Second-Brain-"
+    },
+    {
+      "title": "Letter Lense",
+      "description": "A responsive Product which help Seo Engineers to count words",
+      "tech": ["React.js", "Tailwind CSS"],
+      "image":"./img/letterLens.png",
+      "live": "https://letter-lense.netlify.app/",
+      "github": "https://github.com/mohitsoni705/LetterLens"
     }
   ]
