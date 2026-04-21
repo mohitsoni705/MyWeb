@@ -13,7 +13,7 @@ const About = ({ setIsHovering , skills }) => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-300 mb-6">
-                I'm a passionate full-stack developer with over 5 years of experience creating digital solutions that make a difference. I love turning complex problems into simple, beautiful, and intuitive designs.
+                I'm a passionate full-stack developer creating digital solutions that make a difference. I love turning complex problems into simple, beautiful, and intuitive designs.
               </p>
               <p className="text-lg text-gray-300 mb-8">
                 When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.
