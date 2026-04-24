@@ -44,6 +44,7 @@ const Projects = ({setIsHovering}) => {
                       href={project.live}
                       onMouseLeave={() => setIsHovering(false)}
                       className="flex items-center text-white hover:text-gray-300 transition-colors"
+                      target="_blank"
                     >
                       <ExternalLinkIcon className="w-4 h-4 mr-1" />
                       Live Demo
@@ -52,6 +53,7 @@ const Projects = ({setIsHovering}) => {
                       href={project.github}
                       onMouseLeave={() => setIsHovering(false)}
                       className="flex items-center text-gray-400 hover:text-gray-200 transition-colors"
+                      target="_blank"
                     >
                       <Github className="w-4 h-4 mr-1" />
                       Code
