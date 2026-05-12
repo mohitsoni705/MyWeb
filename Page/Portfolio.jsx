@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, ExternalLink, ChevronDown, Code, Palette, Zap, Users } from 'lucide-react';
+import { motion } from 'framer-motion';
+import Lenis from 'lenis';
 import Home from '../src/Components/Home';
 import About from '../src/Components/About';
 import Projects from '../src/Components/Projects';
@@ -24,6 +26,32 @@ export default function Portfolio() {
 
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
+  // Initialize Lenis for smooth scrolling
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      direction: 'vertical',
+      gestureDirection: 'vertical',
+      smooth: true,
+      mouseMultiplier: 1,
+      smoothTouch: false,
+      touchMultiplier: 2,
+      infinite: false,
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    return () => {
+      lenis.destroy();
+    };
   }, []);
 
  
@@ -151,7 +179,8 @@ export default function Portfolio() {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://github.com/mohitsoni705"
+                target='_blank'
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
                 className="text-gray-400 hover:text-white transition-colors"
@@ -159,7 +188,8 @@ export default function Portfolio() {
                 <Github className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/mohit--soni/"
+                  target='_blank' 
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
                 className="text-gray-400 hover:text-white transition-colors"
@@ -167,7 +197,8 @@ export default function Portfolio() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
+                href="mailto:mohitworkru@gmail.com"
+                target="_blank" 
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
                 className="text-gray-400 hover:text-white transition-colors"
