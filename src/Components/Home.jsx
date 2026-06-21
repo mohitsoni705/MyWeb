@@ -49,7 +49,7 @@ const Home = ({scrollToSection}) => {
 
   return (
     <div>
-       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+       <section id="home" className="min-h-screen flex items-center justify-center flex-col gap-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-gray-900/60"></div>
         <motion.div 
           className="container mx-auto px-6 text-center z-10"
@@ -111,7 +111,6 @@ const Home = ({scrollToSection}) => {
             </motion.button>
           </motion.div>
         </motion.div>
-        
         {/* Scroll Indicator */}
         <motion.div 
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2"

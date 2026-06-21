@@ -2,6 +2,7 @@ import { Github, Linkedin, Mail, MailCheck } from 'lucide-react'
 import React from 'react'
 import { motion } from 'framer-motion'
 import Resume from './Resume'
+import LeetcodeIcon from '../Icon/LeetcodeIcon'
 
 const About = ({skills }) => {
   // Container animation variants
@@ -92,6 +93,15 @@ const About = ({skills }) => {
                   whileHover="hover"
                 >
                   <Github className="w-6 h-6 text-white" />
+                </motion.a>
+                <motion.a 
+                  href="https://leetcode.com/u/mohitsoni705/"
+                  target='_blank'
+                  className="p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-colors border border-gray-700"
+                  variants={iconVariants}
+                  whileHover="hover"
+                >
+                  <LeetcodeIcon className="w-6 h-6 text-white" />
                 </motion.a>
                 <motion.a 
                   href="https://www.linkedin.com/in/mohit--soni/"
