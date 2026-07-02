@@ -38,5 +38,13 @@
       "image":"./img/letterLens.png",
       "live": "https://letter-lense.netlify.app/",
       "github": "https://github.com/mohitsoni705/LetterLens"
+    },
+    {
+      "title": "Task flow",
+      "description": "TaskFlow is a full-stack project management application that helps users organize tasks, track progress, and collaborate efficiently through interactive boards and workflows ",
+      "tech": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+      "image":"./img/taskflow.png",
+      "live": "https://task-flow-eta-peach.vercel.app/dashboard",
+      "github": "https://github.com/mohitsoni705/TaskFlow"
     }
   ]
